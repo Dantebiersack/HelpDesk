@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imgTicket"
+        android:layout_width="107dp"
+        android:layout_height="118dp"
+        android:src="@drawable/helpdesk" />
+
+    <TextView
+        android:id="@+id/lbIdTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID TICKET: "
+        android:layout_toEndOf="@+id/imgTicket"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/txtIdTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:layout_toEndOf="@+id/lbIdTicket"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/lbDispositivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPOSITIVO: "
+        android:layout_toEndOf="@+id/imgTicket"
+        android:layout_below="@+id/lbIdTicket"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/txtDispositivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laptop"
+        android:layout_toEndOf="@+id/lbDispositivo"
+        android:layout_below="@+id/txtIdTicket"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/lbEstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTATUS: "
+        android:layout_toEndOf="@+id/imgTicket"
+        android:layout_below="@+id/lbDispositivo"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/txtEstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrado"
+        android:layout_toEndOf="@+id/lbEstatus"
+        android:layout_below="@+id/txtDispositivo"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/lbCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CATEGORIA: "
+        android:layout_toEndOf="@+id/imgTicket"
+        android:layout_below="@+id/lbEstatus"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/txtCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_toEndOf="@+id/lbCategoria"
+        android:layout_below="@+id/txtEstatus"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/lbFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FECHA: "
+        android:layout_toEndOf="@+id/imgTicket"
+        android:layout_below="@+id/lbCategoria"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_toEndOf="@+id/lbCategoria"
+        android:layout_below="@+id/txtCategoria"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        />
+
+</RelativeLayout>
